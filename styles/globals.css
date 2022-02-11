@@ -1,0 +1,21 @@
+.list_style {
+  padding: 0;
+  margin: 0;
+  border: 2px solid green;
+  list-style: none;
+  padding: 10px;
+}
+
+.list_style li a {
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+li {
+}
+
+.list_style li a:hover {
+  transition: 15s;
+  text-decoration: underline;
+}
